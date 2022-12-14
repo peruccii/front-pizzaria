@@ -1,6 +1,7 @@
 # Pizzaria LaPizza
 
-
+LEONARDO BARBOSA SANTOS
+EDUARDO PERUCCI MARTINS DE SOUZA
 
 ### Objetivo
 
