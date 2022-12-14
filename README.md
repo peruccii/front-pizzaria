@@ -49,5 +49,5 @@ O site utilizou as linguagens de marcação HTML para estruturação e CSS para 
 
 2. <a href="https://github.com/peruccii/front-pizzaria">Front-End</a>
 
-3. <a href="">Site</a>
+3. <a href="https://peruccii.github.io/front-pizzaria/">Site</a>
 
