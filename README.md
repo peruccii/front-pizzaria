@@ -1,7 +1,8 @@
 # Pizzaria LaPizza
 
-LEONARDO BARBOSA SANTOS
-EDUARDO PERUCCI MARTINS DE SOUZA
+
+<a href="https://github.com/leobarbosass">LEONARDO BARBOSA SANTOS</a>
+<a href="https://github.com/peruccii">EDUARDO PERUCCI MARTINS DE SOUZA</a>
 
 ### Objetivo
 
