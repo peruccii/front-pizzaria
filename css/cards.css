@@ -1,0 +1,172 @@
+.ul-container-servicos {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.li-container-servicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    width: 175px;
+    height: 350px;
+    border-radius: 5%;
+    background: rgb(221, 219, 219);
+    border: 4px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transition: all ease-in-out .5s;
+    box-shadow: 5px 5px rgba(69, 73, 96, 0.5);
+    
+}
+
+
+.listar-servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 1vw;
+    flex-wrap: wrap
+}
+
+
+.ul-container-cardapio {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.li-container-cardapio {
+    height: 100px;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    border-radius: 5%;
+    background: rgb(19, 0, 0);
+    border: 4px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transition: all ease-in-out .5s;
+    box-shadow: 5px 5px rgba(69, 73, 96, 0.5);
+    
+}
+
+.img-container{
+    height: 10px;
+}
+
+
+.listar-cardapio-container{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.cardapio-promocao {
+    background-color: #750707;
+}
+
+.img-container-cardapio{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.buttons-name{
+    text-decoration: none;
+}
+
+.button-save{
+    background-color:#000000;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 170px;
+    height: 6vh;
+    
+}
+
+.contato-imagem-container{
+    padding-bottom: 50px;
+    
+}
+
+.li-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    width: 175px;
+    height: 350px;
+    border-radius: 5%;
+    background: rgb(221, 219, 219);
+    border: 4px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transition: all ease-in-out .5s;
+    box-shadow: 5px 5px rgba(69, 73, 96, 0.5);
+    
+}
+
+.div-container-listar{
+    display: flex;
+}
+
+.div-container-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 1vw;
+    flex-wrap: wrap
+
+}
+
+h3{
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+
+.promocao{
+    background: linear-gradient(180deg, rgb(70, 69, 69) 0%, #ff4646 100%);
+}
+
+.favorito{
+    background: linear-gradient(180deg, rgb(70, 69, 69) 0%, #ffc72c 100%);
+}
+.favorito-promocao{
+    background: linear-gradient(180deg, #ff4646 0%, #e7a902 100%);
+}
+
+
+.doce{
+    color: pink;
+}
+
+.salgado{
+    color: orange;
+}
+
+.vegetariano{
+    color: green;
+}

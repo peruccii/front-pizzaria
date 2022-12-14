@@ -1,0 +1,168 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-color: rgb(233, 229, 229);
+}
+
+.back{
+    display: flex;
+    justify-content: end;
+    margin: 2vh;
+    color: black;
+    text-decoration: none;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-container{
+
+    position: relative;
+    border-radius: 50px;
+
+    display: flex;
+
+    width: 100vh;
+    height: 70vh;
+
+    background: #F5F3F3;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-login-container{
+    height: 100%;
+    width: 50%;
+}
+
+.image-pizza{
+    height: 100%;
+}
+
+.lapizza{
+    padding-top: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+
+    padding-top: 3vh;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.login-login-container{
+    width: 50%;
+
+    padding-left: 3vw;
+}
+
+.usuario-container{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usuario-password{
+
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #000;
+    width: 320px;
+}
+
+.usuario-container input:focus~label,
+.usuario-container input:valid~label{
+    top:-5px;
+}
+
+
+.usuario-password label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.usuario-password input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.button{
+    padding-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 178px;
+    height: 50px;
+    color: white;
+
+    background: #1D2F32;
+    border-radius: 20px;
+    
+}
+
+.signUp-link{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp-link p a{
+    color: rgb(163, 11, 11);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signUp-link p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+    .image-login-container{
+        display: none;
+    }
+    
+    .login-login-container{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .login-container{
+   
+        width: 40vh;
+        height: 80vh;
+    }
+
+}
